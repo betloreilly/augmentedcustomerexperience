@@ -6,7 +6,6 @@ from cassandra.cluster import Cluster
 from cassandra.auth import PlainTextAuthProvider
 from sentence_transformers import SentenceTransformer
 import streamlit as st
-import os
 import torch
 import openai
 from dotenv import dotenv_values
@@ -121,13 +120,13 @@ class OCRSearch(BaseTool):
         nlp = pipeline("document-question-answering", model="impira/layoutlm-document-qa",)  #a better OCR model can be used.
         res = nlp(image,"What is written in the image?")  
         KEYSPACE_NAME = 'vector'
-        TABLE_NAME = 'med_table'
+        TABLE_NAME = 'ret_table'
         model_id = "text-embedding-ada-002"
         embedding = openai.Embedding.create(input=str(res), model=model_id)['data'][0]['embedding']
         for row in session.execute(f"SELECT document_id,document,embedding_vector FROM {KEYSPACE_NAME}.{TABLE_NAME} ORDER BY embedding_vector ANN OF {embedding} LIMIT 1"):
-                med_res = row.document 
+                ret_res = row.document 
 
-        return med_res 
+        return ret_res 
 
     def _arun(self, query: str):
         raise NotImplementedError("This tool does not support async")
