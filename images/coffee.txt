@@ -1,0 +1,25 @@
+COFFEE wBROS
+Brand	Coffee Bros
+Item Form	Whole Bean
+Flavor	Light Roast Coffee
+Caffeine Content	Caffeinated
+Roast Level	Light_roast
+OUR COMPANY: A company of 2 strong and launched in May 2019 by brothers 
+Nick and Dan Hunnewell. Their mission, bringing better coffee to Amazon 
+while giving back to coffee growing regions.
+LIGHT ROAST COFFEE: This is an extremely sweet and delicate coffee. We’ve 
+found that this roast makes an incredible espresso, as well as a 
+beautiful, bright drip coffee.
+ARABICA COFFEE: Our blends are made from 100% Arabica coffee beans. 
+Arabica Coffee has twice the flavor and a better aroma than its 
+counterpart Robusta.
+FLAVOR FIRST: We source all our coffee to achieve specific taste notes. 
+Our Light Roast Coffee Beans tastes of Honey, Citrus Fruit, and Floral 
+with a crisp and silky body, a perfect Breakfast Blend.
+CUSTOMER SERVICE: One taste of our Crip and Bright Light Roast and we know 
+you'll be in love. If for any reason you are not 100% satisfied with your 
+purchase, give us a shout and we'll make it right. You'll get to talk 
+directly to one of the two Coffee Bros when you reach out to us. Dan is 
+the Head of Brand and Marketing while Nick is our Head Roaster. We'll help 
+find you the perfect coffee, show you the best brewing methods, or just 
+chat about all things coffee!
