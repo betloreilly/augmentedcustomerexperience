@@ -19,11 +19,11 @@ auth_provider = PlainTextAuthProvider(ASTRA_CLIENT_ID, ASTRA_CLIENT_SECRET)
 cluster = Cluster(cloud=cloud_config, auth_provider=auth_provider)
 session = cluster.connect()
 KEYSPACE_NAME = 'vector'
-TABLE_NAME = 't_images2'
+TABLE_NAME = 't_images'
  
 model = SentenceTransformer('clip-ViT-B-32')
 
-location = '/Users/betuloreilly/llmdemos/augmentedcustomerexperience/images/'
+location = config['image_inputdir'] 
 img_emb1 = model.encode(Image.open(location+'zara1.jpg'))
 img_emb2 = model.encode(Image.open(location+'zara2.jpg'))
 img_emb3 = model.encode(Image.open(location+'zara3.jpg'))

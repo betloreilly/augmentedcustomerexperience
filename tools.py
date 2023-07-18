@@ -102,7 +102,7 @@ class Similarity(BaseTool):
             if row.id != 1:
                res = row.name 
                # display image
-               st.image("/Users/betuloreilly/llmdemos/agentswithimages/images/"+res, use_column_width=True)
+               st.image(config['image_inputdir']+res, use_column_width=True)
 
         return res 
 
