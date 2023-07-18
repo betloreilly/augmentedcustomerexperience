@@ -68,6 +68,17 @@ Retailers could implement APIs to access information from the internet and demon
 
 ![In-Store Mobile App](image-2.png)
 
+* Medicine Information:
+
+![Medicine](image-5.png)
+
+* Image Capturing:
+
+![Image Capture](image-3.png)
+
+* Object Detection:
+
+![Object Detection](image-4.png)
 
 The solution is based on Streamlit, Langchain (Agents), OpenAI (text-embedding-ada-002, gpt-3.5-turbo), Astra Vector Search, and Huggin Face (pipelines, sentence_transformers).
 
