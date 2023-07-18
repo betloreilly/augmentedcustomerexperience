@@ -74,7 +74,7 @@ Retailers could implement APIs to access information from the internet and demon
 
 * Image Capturing:
 
-![Image Capture](image-3.png)
+ ![Image Capturing](image-6.png)
 
 * Object Detection:
 
